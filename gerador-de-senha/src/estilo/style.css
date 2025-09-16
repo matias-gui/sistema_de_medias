@@ -3,6 +3,20 @@
     padding: 0px;
     margin: 0px;
 }
+@keyframes mensagem {
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(2deg);
+    }
+    50%{
+        transform: rotate(-2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
 
 body{
     display: flex;
@@ -14,6 +28,23 @@ body{
     background-color: rgba(0, 0, 0, 0.463);
     background: url(/src/img/img-fundo.jpg) no-repeat fixed  center center ;
     background-size: cover;
+}
+
+#mensagem{
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 300px ;
+    height: 70px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.464);
+
+    
+
 }
 .container{
     display: flex;
