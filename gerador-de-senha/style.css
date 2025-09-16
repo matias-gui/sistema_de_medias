@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.463);
+    background: url(/img/img-fundo.jpg) no-repeat fixed  center center ;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff38;
+    border: 1px solid #ffffff26;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}
+h1, h2{
+    margin: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    cursor:default;
+}
+
+.container-inicio{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+   width: 250px;
+   gap: 15px;
+}
+.formulario input{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.gerarSenha,.copiarSenha{
+    font-family: "Quantico", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 60%;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;  
+    cursor: pointer;
+}
+.container-resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+.senha{
+    background-color: aliceblue;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
